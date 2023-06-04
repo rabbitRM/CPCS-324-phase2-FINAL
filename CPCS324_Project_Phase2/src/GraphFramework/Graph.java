@@ -7,7 +7,6 @@ import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.Random;
-import AirFreightApp.AFRouteMap;
 import java.util.Collections;
 
 public abstract class Graph {
