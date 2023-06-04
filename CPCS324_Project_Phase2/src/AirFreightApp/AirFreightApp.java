@@ -11,7 +11,7 @@
                        OR enter the number of locations , routes , if the graph is directed or not 
                        and let the program randomly generate a graph 
   output results : printing all the shortest paths awith their cost
-  Cites :https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/ 
+  Cites : dijkstra --> https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/ 
 
  */
 
