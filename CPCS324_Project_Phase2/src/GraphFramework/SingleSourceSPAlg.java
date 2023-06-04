@@ -129,7 +129,7 @@ public static void computeDijkstraAlg(Vertex source) {
                 // loop to go through the shortest path
                 for (int i = 0; i < shortestPath.size() - 1; i++) {
 
-                    System.out.print(shortestPath.get(i).displayInfo() + " -> ");
+                    System.out.print(shortestPath.get(i).displayInfo() + " - ");
                 }
 
                 // displaying the info of the last vertex and the needed distance
@@ -139,7 +139,7 @@ public static void computeDijkstraAlg(Vertex source) {
             }else {
                 
             // print a message    
-            System.out.print( graph.getVertices().get(source.getLabel()).displayInfo()+ " to " + vertex.displayInfo() + ": ");
+            System.out.print( graph.getVertices().get(source.getLabel()).displayInfo()+ " - " + vertex.displayInfo() + ": ");
             System.out.println("No path exists");
             
             }
