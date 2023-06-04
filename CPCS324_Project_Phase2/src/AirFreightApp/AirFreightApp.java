@@ -43,11 +43,15 @@ public class AirFreightApp {
         //in millisecond between startTime and endTime variables
         double result;
 
+        System.out.println("\t ------- Getting All-Pair Shortest Path Using Dijkstra Algorithm -------\n");
+        
         // letting the user pick a choice
         System.out.print(">> Enter your choice (1 or 2): ");
 
         int choice = input.nextInt();
-
+        
+        System.out.println("");
+        
         // if he pick 1 --> the graph will be read from a file 
         if (choice == 1) {
         
