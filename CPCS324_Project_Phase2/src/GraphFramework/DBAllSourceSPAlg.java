@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package GraphFramework;
 
 
@@ -31,8 +27,8 @@ public class DBAllSourceSPAlg extends ShortestPathAlgorithm {
         for (Vertex source : graph.getVertices()) {
             
             
-            System.out.println("The starting point location is " + source.displayInfo()
-                    + "\n\nThe routes from location " + source.displayInfo() + " to the rest of the locations are:");
+            System.out.println("The starting point location is " + (char)(source.getLabel()+'A')
+                    + "\n\nThe routes from location " + (char)(source.getLabel()+'A') + " to the rest of the locations are:");
 
             // invoking the dijkstra algorithm while sending the source  
             dijkstra.computeDijkstraAlg(source);
