@@ -11,7 +11,7 @@
   Input requirements : The user will decide to get shortest paths from a graph its information is written in a file 
                        OR enter the number of locations , routes , if the graph is directed or not 
                        and let the program randomly generate a graph 
-  Output results : printing all the shortest paths awith their cost
+  Output results : printing all the shortest paths with their cost
   Cites : dijkstra --> https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/ 
 
  */
@@ -43,7 +43,7 @@ public class AirFreightApp {
         //in millisecond between startTime and endTime variables
         double result;
 
-        System.out.println("\t ------- Getting All-Pair Shortest Path Using Dijkstra Algorithm -------\n");
+        System.out.println("\t ------- Getting All-Pair Shortest Paths Using Dijkstra Algorithm -------\n");
         
         // letting the user pick a choice
         System.out.print(">> Enter your choice (1 or 2): ");
