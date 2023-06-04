@@ -10,15 +10,14 @@ import java.util.Random;
 import AirFreightApp.AFRouteMap;
 import java.util.Collections;
 
-
 public abstract class Graph {
 
     // Defining the data feilds
-    private static int vertexNo;
-    private static int edgeNo;
-    private static boolean isDiagraph;
-    private static ArrayList<Vertex> vertices = new ArrayList<Vertex>();
-    private static LinkedList<Edge>[] adjacencylist;
+    private int vertexNo;
+    private int edgeNo;
+    private boolean isDiagraph;
+    private ArrayList<Vertex> vertices = new ArrayList<Vertex>();
+    private LinkedList<Edge>[] adjacencylist;
 
     //-----------------------------------------------------------------------------
     // Defining the constructor
@@ -48,44 +47,44 @@ public abstract class Graph {
 
     //-----------------------------------------------------------------------------
     // Defining the setters and getters
-    public static int getVertexNo() {
+    public int getVertexNo() {
         return vertexNo;
     }
 
-    public static void setVertexNo(int vertexNo) {
-        Graph.vertexNo = vertexNo;
+    public void setVertexNo(int vertexNo) {
+        this.vertexNo = vertexNo;
     }
 
-    public static int getEdgeNo() {
+    public int getEdgeNo() {
         return edgeNo;
     }
 
-    public static void setEdgeNo(int edgeNo) {
-        Graph.edgeNo = edgeNo;
+    public void setEdgeNo(int edgeNo) {
+        this.edgeNo = edgeNo;
     }
 
-    public static boolean isIsDiagraph() {
+    public boolean isIsDiagraph() {
         return isDiagraph;
     }
 
-    public static void setIsDiagraph(boolean isDiagraph) {
-        Graph.isDiagraph = isDiagraph;
+    public void setIsDiagraph(boolean isDiagraph) {
+        this.isDiagraph = isDiagraph;
     }
 
-    public static ArrayList<Vertex> getVertices() {
+    public ArrayList<Vertex> getVertices() {
         return vertices;
     }
 
-    public static void setVertices(ArrayList<Vertex> vertices) {
-        Graph.vertices = vertices;
+    public void setVertices(ArrayList<Vertex> vertices) {
+        this.vertices = vertices;
     }
 
-    public static LinkedList<Edge>[] getAdjacencylist() {
+    public LinkedList<Edge>[] getAdjacencylist() {
         return adjacencylist;
     }
 
-    public static void setAdjacencylist(LinkedList<Edge>[] adjacencylist) {
-        Graph.adjacencylist = adjacencylist;
+    public void setAdjacencylist(LinkedList<Edge>[] adjacencylist) {
+        this.adjacencylist = adjacencylist;
     }
 
     //-----------------------------------------------------------------------------
@@ -426,7 +425,6 @@ public abstract class Graph {
         return 0;
     }
 
-    
     //-----------------------------------------------------------------------------
     // Method to get the weight of a specific edge connecting specific source and specific target 
     public boolean allVerticesVisited() {
