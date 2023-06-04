@@ -7,10 +7,11 @@
    Areej Omar Baeshen  	    2105759
    Furat Jamel Alfarsi 	    2009624
 
-  input requirements : The user will decide to get shortest paths from a graph its information is written in a file 
+  Control structure : the program will depend on the use of array, arraylist, linked List and map
+  Input requirements : The user will decide to get shortest paths from a graph its information is written in a file 
                        OR enter the number of locations , routes , if the graph is directed or not 
                        and let the program randomly generate a graph 
-  output results : printing all the shortest paths awith their cost
+  Output results : printing all the shortest paths awith their cost
   Cites : dijkstra --> https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/ 
 
  */
