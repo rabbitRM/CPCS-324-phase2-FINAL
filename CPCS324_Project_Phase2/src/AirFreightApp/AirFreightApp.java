@@ -96,7 +96,7 @@ public class AirFreightApp {
         result = (double) (endTime - startTime)/ 1000;
         
         //printing a message
-        System.out.println("It took me " + result + " ms\n");
+        System.out.println("It took me " + result + " s\n");
     
     }
 
